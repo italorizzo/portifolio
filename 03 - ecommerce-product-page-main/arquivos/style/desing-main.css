@@ -1,0 +1,310 @@
+#conteudo-compania{
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: hsl(26, 100%, 55%);
+    font-weight: bold;
+}
+#conteudo-nomeProduto{
+    font-size: 37px;
+    margin: 5px 0 5px 0;
+}
+#descrição-produto{
+    color: hsl(219, 9%, 45%);
+    font-size: 14px;
+    margin: 20px 0 20px 0;
+    width: 400px;
+}
+#preço{
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#desconto{
+    font-size: 15px;
+    margin-left: 20px;
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+}
+s{
+    font-size: 14px;
+    display: flex;
+    color: hsl(220, 14%, 75%);
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+}
+.quantidade{
+    margin-top: 20px;
+    border-radius: 5px;
+    display: table;
+    width: 140px;
+    height: 40px;
+    background-color: hsl(223, 64%, 98%);
+}
+.quantidade-indicador{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+}
+.bt-qnt{
+    cursor: pointer;
+    position: absolute;
+    border: 0;
+    background-color: transparent;
+}
+#bt-menos{
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: 0.5s all;
+}
+#bt-mais{
+    margin-top: 13px;
+    margin-left: -30px;
+    transition: 0.5s all;
+}
+#bt-mais:hover, #bt-menos:hover{
+    opacity: 0.5;
+}
+#bt{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 175px;
+}
+#bt-addcarrinho{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+
+    border-radius: 5px;
+    border: 0;
+
+    background-color: hsl(26, 100%, 55%);
+    box-shadow: 0 10px 20px hsla(26, 100%, 55%, 0.541);
+
+    cursor: pointer;
+
+    transition: 0.5s all;
+}
+#bt-addcarrinho span{
+    position: absolute;
+
+    top: calc(50% - 6px);
+    left: calc(50% - 20px);
+
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+#bt-addcarrinho svg{
+    position: absolute;
+
+    top: calc(50% - 10px);
+    left: calc(50% - 50px);
+}
+#bt-addcarrinho:hover{
+    opacity: 0.5;
+}
+#outras-imagens img:hover{
+    opacity: 0.7 !important;
+}
+.bt-passar{
+    z-index: 1;
+    display: table;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    border: 0;
+    top: 220px;
+    cursor: pointer;
+}
+.bt-passar:hover path{
+    stroke: hsl(26, 100%, 55%);
+}
+.bt-passar svg{
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+}
+.next{
+    right: -30px;
+}
+.previus{
+    left: -30px;
+}
+@media(min-width: 884px){
+    #conteudo{
+        position: relative;
+        margin: auto;
+        width: 900px;
+    }
+    #conteudo-proporção{
+        position: absolute;
+
+        display: table; 
+        width: 100%;
+        height: calc(100% - 30px);
+
+        margin-top: 30px;
+    }
+    .area-venda{
+        display: table-cell;
+        width: 50%;
+        text-align: center;
+        vertical-align: middle;
+    }
+    #img-selecionada img, #img-selecionada-grande img{
+        width: 352px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    #outras-imagens img {
+        display: inline-block;
+
+        width: 70px;
+        margin: 10px;
+        border-radius: 10px;
+
+        cursor: pointer;
+    }
+    #outras-select, #outras-select-grande{
+        border: 2px solid hsl(26, 100%, 55%) !important;
+        opacity: 0.5 !important;
+    }
+    #informações-conteudo{
+        vertical-align: text-top;
+        text-align: left;
+        padding: 35px;
+    }
+    #img-produto{
+        position: fixed;
+        margin: 0;
+        z-index: 2;
+    
+        width: 100%;
+        height: 100%;
+    
+        background-color: hsla(0, 0%, 0%, 0.74);
+    }
+    #centralizada{
+        position: absolute;
+        top: calc(50% - 250px);
+        left: calc(50% - 250px);
+        text-align: center;
+    }
+    #img-selecionada img, #img-selecionada-grande img{
+        width: 352px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    #outras-imagens img {
+        display: inline-block;
+
+        width: 70px;
+        margin: 10px;
+        border-radius: 10px;
+
+        cursor: pointer;
+    }
+    .img-selecionada-max img{
+        width: 425px !important;
+        cursor: default !important;
+    }
+    #outras-select, #outras-select-grande{
+        border: 2px solid hsl(26, 100%, 55%) !important;
+        opacity: 0.5 !important;
+    }
+    #img-produto{
+        visibility: hidden;
+    }
+    #close{
+        cursor: pointer;
+        text-align: right;
+    }
+    #fechar:hover path{
+        fill: hsl(26, 100%, 55%);
+    }
+}
+@media(max-width: 884px){
+    #img-produto, #outras-imagens{
+        visibility: hidden;
+        display: none;
+    }
+    #img-selecionada img{        
+        width: 100%;
+        object-fit: cover;
+        height: 400px;
+    }
+    .bt-passar{
+        visibility: visible !important;
+    }
+    .next{
+        right: 15px !important;
+    }
+    .previus{
+        left: 15px !important;
+    }
+
+    #conteudo-compania{
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    #conteudo-nomeProduto{
+        font-size: 24px;
+    }
+    #descrição-produto{
+        font-size: 14px;
+        width: auto;
+    }
+    #preço{
+        font-size: 20px;
+    }
+    #desconto{
+        font-size: 12px;
+    }
+    s{
+        position: absolute;
+        font-size: 13px;
+        right: 50px;
+        margin-top: -30px;
+    }
+    #informações-conteudo{
+        margin: auto;
+        width: 80%;
+    }
+    .attribution{
+        bottom: -250px;
+    }
+}
+@media(max-width: 470px) {
+    #img-selecionada img{        
+        height: 300px;
+    }
+    .bt-passar{
+        top: 200px;
+    }
+    #qnt{
+        position: relative;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    #bt{
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    #bt-addcarrinho{
+        width: 100%;
+    }
+    #add-carrinho{
+        padding-top: 20px;
+    }
+}

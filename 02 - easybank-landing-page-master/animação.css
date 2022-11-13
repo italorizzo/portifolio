@@ -1,0 +1,62 @@
+@keyframes bold{
+    0%{
+        color: hsl(233, 8%, 62%);
+    }
+    100%{
+        color: black;
+        font-weight: bold;
+    }
+}
+@keyframes opacity{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+    }
+}
+.div_menu a{
+    position: relative;
+    text-decoration: none;
+}
+.div_menu a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    top: 35px;
+    left: 0;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    border-radius: 5px;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.div_menu a:hover{
+    animation: 1s bold;
+    color: black;
+    font-weight: bold;
+}
+.div_menu a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.link_sec3:hover{
+    transition: 0.5s all;
+    color: hsla(136, 65%, 51%, 0.555);
+}
+#bt_request:hover{
+    animation: 0.5s opacity;
+    opacity: 0.5;
+}
+#redes-sociais-rodapé svg:hover path{
+    transition: 0.5s all;
+    fill: hsl(136, 65%, 51%);
+}
+.abas-rodapé a:hover {
+    transition: 0.5s all;
+    color: hsl(136, 65%, 51%);
+}

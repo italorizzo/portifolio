@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?  family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; position: absolute; bottom: 0; left: calc(50% - 180px);}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <img id="title_calculator" src="images/logo.svg" alt="">
+  <section>
+    <div id="insert-number">
+      <div class="inputs">
+        <h2>Bill</h2>
+       <input type="number" placeholder="0" id="valor" class="entrada">
+       <img id="dolar" src="images/icon-dollar.svg" alt="">
+      </div>
+      <div class="inputs">
+        <h2>Select Tip %</h2>
+        <button class="porcentagem" id="1">5%</button>
+        <button class="porcentagem" id="2">10%</button>
+        <button class="porcentagem" id="3">15%</button>
+        <button class="porcentagem" id="4">25%</button>
+        <button class="porcentagem" id="5">50%</button>
+        <input type="number" placeholder="Custom" id="custom" class="">
+      </div>
+      <div class="inputs">
+        <h2>Number of People</h2>
+        <input type="number" placeholder="0" name="" id="people" class="entrada">
+        <p id="proibido">Can't be zero</p>
+        <img id="person" src="images/icon-person.svg" alt="">
+      </div>
+    </div>
+    <div id="results">
+      <div id="area">
+        <div>
+          <p id="valor-gorjeta" class="texto">
+            Tip Amount <br> <span class="person">/ person</span>
+          </p>
+          <span id="valor1" class="valor">$0.00</span>
+        </div>
+        <div>
+          <p id="total" class="texto">
+            Total <br> <span class="person">/ person</span>
+          </p>
+          <span id="valor2" class="valor">$0.00</span>
+        </div>
+        <button id="reset">RESET</button>
+      </div>
+    </div>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ítalo Rizzo</a>.
+  </div>
+</body>
+</html>

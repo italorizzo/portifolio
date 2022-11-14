@@ -1,12 +1,48 @@
-import Comments from '../data.json' assert {type: 'json'}
+import Dados from '../data.json' assert {type: 'json'}
 import { Comment } from './Comment.js'
 import { MyComent } from './MyComent.js'
 
 const App = {
     start(){
-        for (let i = 0; i < Comments.comments.length; i++){
-            const infos = Comments.comments[i]
-            Comment.init({
+        var i = 0
+        App.init(i)
+        MyComent.render(button)
+        function button(){
+            document.getElementById('send').addEventListener('click', () => {
+                var texto = document.getElementById('texto').value
+                var id = Dados.comments.at(-1).id
+                var myPerfil = Dados.currentUser
+                var MyComent = {
+                    "id": `${id + 1}`,
+                    "content": `${texto}`,
+                    "createdAt": "1s",
+                    "score": 0,
+                    "user": `${myPerfil}`,
+                    "replies": []
+                }
+                adicionar(MyComent, texto)
+            })
+        }
+        function adicionar(MyComent, texto){
+            if (texto.length > 0){
+                Dados.comments.push(MyComent)
+                var i = 0
+                App.init(i)
+            }
+        }
+    },
+    init(i){
+        for (i; i < Dados.comments.length; i++){
+            var infos = Dados.comments[i]
+            if (i === 0){
+                var inicio = 0
+            } else {
+                var inicio = 1
+            }
+            const cont = i
+            Comment.render({
+                cont,
+                inicio,
                 content: infos.content,
                 created: infos.createdAt, 
                 score: infos.score,  
@@ -14,20 +50,7 @@ const App = {
                 user: infos.user,
             })
         }
-        MyComent.init()
-        document.getElementById('send').addEventListener('click', () => {
-            var texto = document.getElementById('texto').value
-            var MyComent = {
-                "content": `${texto}`,
-                "createdAt": "1s",
-                "score": 0,
-                "user": `${Comments.currentUser}`,
-            }
-            if (texto !== ''){
-                Comment.comments.push('oi')
-                console.log(Comment.comments)
-            }
-        })
+        console.log(MyComent.render())
     }
 }
 

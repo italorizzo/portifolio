@@ -1,9 +1,12 @@
+import Dados from '../data.json' assert {type: 'json'}
 const Comment = {
-    init({content, created, score, user, replies}){
+    render({cont, inicio, content, created, score, user, replies}){
+        if (inicio === 0){
+            document.body.innerHTML = ''
+        }
         var div = document.createElement('div')
         div.id = 'comentario'
-        document.body.appendChild(div)
-        
+        document.body.appendChild(div)      
         // informações da div comentário
         div.innerHTML = `
         <table>
@@ -18,6 +21,7 @@ const Comment = {
                 <td class="infosUser">
                     <img src="${user.image.webp}" alt="">
                     <span id="user">${user.username}</span>
+                    <span id="you${cont}"></span>
                     <span id="data">${created}</span>
                 </td>
                 <td class="reply">
@@ -51,7 +55,8 @@ const Comment = {
                         </td>
                         <td class="infosUser">
                             <img src="${repliesUser.image.webp}" alt="">
-                            <span id="user">${repliesUser.username}</span>
+                            <span id="user">${repliesUser.username} </span>
+                            <span id="you${i}"></span>
                             <span id="data">${repliesData}</span>
                         </td>
                         <td class="reply">
@@ -60,13 +65,33 @@ const Comment = {
                     </tr>
                     <tr>
                         <td class="content" colspan="2">
-                            <p><span class="reply">@${repliesMencion} </span>${repliesContent}</p>
+                            <p><span class="reply">@${repliesMencion}</span>${repliesContent}</p>
                         </td>
                     </tr>
                 </table>
             </div>`
+            if (repliesUser.username === Dados.currentUser.username){
+                var you = document.getElementById(`you${i}`)
+                you.innerText = 'you'
+                you.style.backgroundColor = "hsl(238, 40%, 52%)"
+                you.style.padding = '5px 10px 5px 10px'
+                you.style.fontSize = '80%'
+                you.style.color = 'white'
+                you.style.fontWeight = 500
+                you.style.borderRadius = '0.2rem'
+                }   
             }
         }
+        if (user.username === Dados.currentUser.username){
+            var you = document.getElementById(`you${cont}`)
+            you.innerText = 'you'
+            you.style.backgroundColor = "hsl(238, 40%, 52%)"
+            you.style.padding = '5px 10px 5px 10px'
+            you.style.fontSize = '80%'
+            you.style.color = 'white'
+            you.style.fontWeight = 500
+            you.style.borderRadius = '0.2rem'
+        }   
     }
 }
 

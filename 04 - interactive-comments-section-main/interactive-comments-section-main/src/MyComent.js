@@ -1,11 +1,10 @@
 
 const MyComent = {
-    init(){
+    render(button){
         var div = document.createElement('div')
         div.id = 'MyComent'
-        document.body.appendChild(div)
 
-        div.innerHTML += `
+        div.innerHTML = `
         <div class="imgPerfil">
             <img src="images/avatars/image-juliusomo.webp" alt="">
         </div>
@@ -15,6 +14,8 @@ const MyComent = {
         <div class="enviarComent">
             <button id="send">Send</button>
         </div>`
+        document.body.appendChild(div)
+        return button()
     }
 }
 

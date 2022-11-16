@@ -5,7 +5,7 @@ const View = {
                 <header>
                     <div class="notification">
                         <h1>Notifications</h1>
-                        <span>${read}</span>
+                        <span id="contNotify">${read}</span>
                     </div>
                     <div class="buttonRead">
                         <button>Mark all as read</button>

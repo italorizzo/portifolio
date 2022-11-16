@@ -3,19 +3,20 @@
 :root{
     font-size: 100%;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    transition: all 0.5s;
 }
 body{
     margin: 0;
     padding: 0;
     flex-direction: column;
     display: flex;
-    height: 100vh;
+    cursor: default;
     align-items: center;
     justify-content: center;
     background-color: hsl(210, 60%, 98%);
 }
 .caixa{
-    width: 70%;
+    width: 50%;
     padding: 20px;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.11);
@@ -50,8 +51,77 @@ header > *{
 .buttonRead button{
     width: 150px;
     border: 0;
+    cursor: pointer;
     padding: 5px 10px 5px 10px;
     background-color: transparent;
     font-size: 110%;
     color: hsl(219, 12%, 42%);
+}
+.buttonRead button:hover{
+    color: hsl(219, 85%, 26%);
+}
+main > *{
+    margin: auto;
+    width: 100%;
+    margin-top: 10px;
+}
+main table{
+    background-color: hsl(210, 60%, 98%);
+    width: 100%;
+    padding: 10px 20px 5px 10px;
+    border-radius: 0.4em;
+    height: 10px;
+}
+img,
+.imgUser{
+    vertical-align: top;
+    width: 50px;
+}
+img{
+    padding-right: 10px;
+}
+.userAction > *{
+    display: inline-block;
+    margin: 2px;
+}
+.data{
+    display: block;
+}
+.userAction span{
+    color: hsl(224, 21%, 14%) !important;
+    font-weight: 800 !important;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.userAction span:hover{
+    color: hsl(219, 85%, 26%) !important;
+}
+.userAction p{
+    color: hsl(219, 14%, 63%);
+    font-size: 90%;
+}
+.notify{
+    width: 10px;
+    height: 10px;
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 1em;
+    margin-left: 10px;
+}
+.action{
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    color: hsl(219, 14%, 63%);
+    cursor: pointer;
+    border: 1px solid hsl(205, 33%, 90%);
+    border-radius: 0.4em;
+}
+.action:hover{
+    background-color: hsl(205, 33%, 90%);
+}
+.imgComent img{
+    padding: 0;
+    border-radius: 0.5em;
+}
+.imgComent img:hover{
+    border: 2px solid hsl(211, 68%, 94%);
 }

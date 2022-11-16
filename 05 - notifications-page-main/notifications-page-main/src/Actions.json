@@ -3,72 +3,79 @@
         {
             "id": 1,
             "user": {
-                "img": "../assets/images/avatar-mark-webber.webp",
+                "img": "assets/images/avatar-mark-webber.webp",
                 "username": "Mark Webber"
             },
             "content": "",
-            "Action": "Mark Webber reacted to your recent post My first tournament today!",
-            "data": "1m ago" 
+            "Action": "reacted to your recent post My first tournament today!",
+            "data": "1m ago",
+            "imgComent": ""
         },
         {
             "id": 2,
             "user": {
-                "img": "../assets/imagens/avatar-angela-gray.webp",
+                "img": "assets/images/avatar-angela-gray.webp",
                 "username": "Angela Gray"
             },
             "content": "",
             "Action": "followed you",
-            "data": "5m ago" 
+            "data": "5m ago",
+            "imgComent": ""
         },
         {
             "id": 3,
             "user": {
-                "img": "../assets/imagens/avatar-jacob-thompson.webp",
+                "img": "assets/images/avatar-jacob-thompson.webp",
                 "username": "Jacob Thompson"
             },
             "Action": "has joined your group Chess Club",
             "content": "",
-            "data": "1 day ago" 
+            "data": "1 day ago",
+            "imgComent": ""
         },
         {
             "id": 4,
             "user": {
-                "img": "../assets/imagens/avatar-rizky-hasanuddin.webp",
+                "img": "assets/images/avatar-rizky-hasanuddin.webp",
                 "username": "Rizky Hasanuddin"
             },
             "Action": "sent you a private message",
             "content": "Hello, thanks for setting up the Chees Club. I've been a member for a few weeks now and I'm alredy having lots of fun and improvinf my game.",
-            "data": "5 days ago"
+            "data": "5 days ago",
+            "imgComent": ""
         },
         {
             "id": 5,
             "user": {
-                "img": "../assets/imagens/avatar-kimberly-smith.webp",
+                "img": "assets/images/avatar-kimberly-smith.webp",
                 "username": "Kimberly Smith"
             },
             "Action": "commented on your picture",
             "content": "",
-            "data": "1 week ago"
+            "data": "1 week ago",
+            "imgComent": "assets/images/image-chess.webp"
         },
         {
             "id": 6,
             "user": {
-                "img": "../assets/imagens/avatar-nathan-peterson.webp",
+                "img": "assets/images/avatar-nathan-peterson.webp",
                 "username": "Nathan Peterson"
             },
             "Action": "reacted to your recent post 5 end-game strategies to increase your win rate",
             "content": "",
-            "data": "2 weeks ago"
+            "data": "2 weeks ago",
+            "imgComent": ""
         },
         {
             "id": 7,
             "user": {
-                "img": "../assets/imagens/avatar-anna-kim.webp",
+                "img": "assets/images/avatar-anna-kim.webp",
                 "username": "Anna Kim"
             },
             "Action": "left the group Chess Club",
             "content": "",
-            "data": "2 weeks ago"
+            "data": "2 weeks ago",
+            "imgComent": ""
         }
     ]
 }

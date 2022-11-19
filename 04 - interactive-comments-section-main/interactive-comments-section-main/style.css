@@ -9,14 +9,11 @@ body{
     min-height: 100vh;
     padding: 0;
     background-color: hsl(223, 19%, 93%);
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    justify-content: center;
     cursor: default;
 }
 #comentario{
     width: 60%;
+    margin: auto;
 }
 #resposta{
     width: 100%;
@@ -124,7 +121,7 @@ section{
     font-weight: 500;
 }
 #MyComent{
-    margin: 20px;
+    margin: auto;
     width: 60%;
     border-radius: 0.4rem;
     background-color: hsl(0, 0%, 100%);

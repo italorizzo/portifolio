@@ -56,7 +56,7 @@ const Comment = {
                         <td class="infosUser">
                             <img src="${repliesUser.image.webp}" alt="">
                             <span id="user">${repliesUser.username} </span>
-                            <span id="you${i}"></span>
+                            <span id="you${cont}"></span>
                             <span id="data">${repliesData}</span>
                         </td>
                         <td class="reply">
@@ -71,7 +71,7 @@ const Comment = {
                 </table>
             </div>`
             if (repliesUser.username === Dados.currentUser.username){
-                var you = document.getElementById(`you${i}`)
+                var you = document.getElementById(`you${cont}`)
                 you.innerText = 'you'
                 you.style.backgroundColor = "hsl(238, 40%, 52%)"
                 you.style.padding = '5px 10px 5px 10px'

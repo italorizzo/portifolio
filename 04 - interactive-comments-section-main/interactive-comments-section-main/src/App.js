@@ -32,7 +32,11 @@ const App = {
         }
     },
     init(i){
-        for (i; i < Dados.comments.length; i++){
+        var x1 = Dados.comments.replies.length
+        var x2 = Dados.comments.length
+        console.log(x1)
+        var total = x1 + x2
+        for (i; i < total; i++){
             var infos = Dados.comments[i]
             if (i === 0){
                 var inicio = 0

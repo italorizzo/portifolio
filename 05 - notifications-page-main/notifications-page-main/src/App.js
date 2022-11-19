@@ -31,7 +31,6 @@ const App = {
                 color.style.backgroundColor = 'white'
             }
         })
-        
     },
     init(){
         document.getElementById('contNotify').innerHTML = document.querySelectorAll('.notify').length

@@ -5,98 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+        h1{
+            text-align: center;
+        }
+        .pt1{
+            width: 90%;
+            margin: auto;
+            text-align: center;
+        }
+        .pt1 > *{
+            display: inline-block;
+            width: 48%;
+            vertical-align: middle;
+        }
+        .história{
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
-    <div id="comentario">
-        <table>
-            <tr>
-                <td class="avaliation" rowspan="2">
-                    <div>
-                        <button><img src="images/icon-plus.svg" alt=""></button>
-                        <span>10</span>
-                        <button><img src="images/icon-minus.svg" alt=""></button>
-                    </div>
-                </td>
-                <td class="infosUser">
-                    <img src="images/avatars/image-amyrobson.png" alt="">
-                    <span id="user">Username</span>
-                    <span id="data">1 month</span>
-                </td>
-                <td class="reply">
-                    <button><img src="images/icon-reply.svg" alt=""> <p>Reply</p></button>
-                </td>
-            </tr>
-            <tr>
-                <td class="content" colspan="2">
-                    <p>Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.</p>
-                </td>
-            </tr>
-        </table>
-        <div id="resposta">
-            <div class="linha"></div>
-            <table id="tableResposta">
-                <tr>
-                    <td class="avaliation" rowspan="2">
-                        <div>
-                            <button><img src="images/icon-plus.svg" alt=""></button>
-                            <span>10</span>
-                            <button><img src="images/icon-minus.svg" alt=""></button>
-                        </div>
-                    </td>
-                    <td class="infosUser">
-                        <img src="images/avatars/image-amyrobson.png" alt="">
-                        <span id="user">Username</span>
-                        <span id="data">1 month</span>
-                    </td>
-                    <td class="reply">
-                        <button><img src="images/icon-reply.svg" alt=""> <p>Reply</p></button>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="content" colspan="2">
-                        <p>Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </div>
-    <div id="comentario">
-        <table>
-            <tr>
-                <td class="avaliation" rowspan="2">
-                    <div>
-                        <button><img src="images/icon-plus.svg" alt=""></button>
-                        <span>10</span>
-                        <button><img src="images/icon-minus.svg" alt=""></button>
-                    </div>
-                </td>
-                <td class="infosUser">
-                    <img src="images/avatars/image-amyrobson.png" alt="">
-                    <span id="user">Username</span>
-                    <span id="data">1 month</span>
-                </td>
-                <td class="reply">
-                    <button><img src="images/icon-reply.svg" alt=""> <p>Reply</p></button>
-                </td>
-            </tr>
-            <tr>
-                <td class="content" colspan="2">
-                    <p>Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.</p>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div id="MyComent">
-        <div class="imgPerfil">
-            <img src="images/avatars/image-juliusomo.webp" alt="">
-        </div>
-        <div class="escreverComent" class="">
-            <textarea placeholder="O que você está pensando?" type="text" name="" id=""></textarea>
-        </div>
-        <div class="enviarComent">
-            <button>Send</button>
-        </div>
-    </div>
+    <main>
+        <article>
+            <h1>Informações</h1>
+            <div class="pt1">
+                <div class="história">
+                    <h2>História</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis labore voluptatem consectetur ad commodi totam, obcaecati voluptates similique omnis neque possimus eius laudantium. Accusantium itaque, aspernatur dignissimos vitae rerum vel!</p>
+                </div>
+                <div class="img">
+                    <img src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="">
+                </div>
+            </div>
+        </article>
+    </main>
 </body>
 </html>

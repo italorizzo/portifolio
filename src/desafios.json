@@ -1,0 +1,29 @@
+{
+    "desafio": [
+        {
+            "nome": "Calculadora de Gorjeta",
+            "link": "01 - tip-calculator-app-main",
+            "img": "https://res.cloudinary.com/dz209s6jk/image/upload/v1625753687/Challenges/so0b0hpmowz5ujjwbhkp.jpg"
+        },
+        {
+            "nome": "Landing-page",
+            "link": "02 - easybank-landing-page-master",
+            "img": "https://res.cloudinary.com/dz209s6jk/image/upload/v1583427671/Challenges/yezt1f56cfp2njnakpbo.jpg"
+        },
+        {
+            "nome": "Ecommerce-product",
+            "link": "03 - ecommerce-product-page-main",
+            "img": "https://res.cloudinary.com/dz209s6jk/image/upload/v1633619531/Challenges/uehz7kwoo7gesfebbqi8.jpg"
+        },
+        {
+            "nome": "Comentário Interativos",
+            "link": "04 - interactive-comments-section-main",
+            "img": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639765915/Challenges/v9wskl4mnbt5gbxm4o2r.jpg"
+        },
+        {
+            "nome": "Notificação",
+            "link": "05 - notifications-page-main",
+            "img": "https://res.cloudinary.com/dz209s6jk/image/upload/v1663251781/Challenges/hkmsdxxteijprjdzskhg.jpg"
+        }
+    ]
+}

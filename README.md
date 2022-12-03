@@ -2,6 +2,6 @@
  
 <html>
   <head>
-    <meta http-equiv="Refresh" content="0; url=https://italorizzo.github.io/fronted-mentor" />
+    <meta http-equiv="Refresh" content="0; url=https://italorizzo.github.io/fronted-mentor/src" />
   </head>
 </html>

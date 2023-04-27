@@ -1,0 +1,11 @@
+<section class="card-reply">
+  <section class="card-reply-internal">
+    <div class="user-image">
+      <img src="{{ commentsJson['currentUser']['image']['png'] }}" alt="">
+    </div>
+    <div class="user-menssagem">
+      <textarea #value placeholder="Adicionar comentário..." name="" id="" cols="30" rows="10"></textarea>
+    </div>
+    <button class="btn-reply" (click)="send(value.value)">Reply</button>
+  </section>
+</section>

@@ -1,0 +1,141 @@
+main{
+  margin: auto;
+  width: 60%;
+}
+.card{
+  margin: auto;
+  position: relative;
+  padding: 10px;
+  width: 100%;
+}
+.card-internal, .card-reply-comment-internal{
+  background-color: white;
+  padding: 20px;
+  display: table;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.238);
+}
+.card-internal > div, .card-reply-comment-internal > div{
+  display: table-cell;
+}
+.classification{
+  width: 80px;
+  position: relative;
+  height: 100%;
+  padding: 10px;
+  vertical-align: middle;
+}
+.classification-internal{
+  color: hsl(238, 40%, 52%);
+  background-color: hsl(228, 33%, 97%);
+  width: 70%;
+  border-radius: 10px;
+}
+.classification-internal > *{
+  text-align: center;
+  display: block;
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+}
+.classification-internal > button{
+  height: 40px;
+  cursor: pointer;
+  color: hsl(239, 57%, 85%);
+  font-weight: bold;
+}
+.classification-internal span{
+  padding: 15px 0 15px 0;
+}
+.reply{
+  color: hsl(238, 40%, 52%);
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  text-align: center;
+  cursor: pointer;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: 0;
+}
+.reply > span{
+  padding-left: 10px;
+}
+.content-internal >*{
+  display: inline-block;
+  vertical-align: middle;
+}
+.usernamePerfil{
+  margin: 0 20px 0 20px;
+  font-weight: bold;
+}
+.imagePerfil{
+  width: 40px;
+}
+.descriptionPostPerfil{
+  line-height: 30px;
+  padding-top: 20px;
+  width: 90%;
+  color: hsl(211, 10%, 45%);
+}
+.createdPerfil{
+  color: hsl(211, 10%, 45%);
+}
+
+.card-reply-comment{
+  padding: 10px 0 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  border-left: 2px solid hsl(223, 19%, 93%);
+}
+.card-reply-comment-internal{
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  display: table;
+  width: 88%;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.238);
+}
+.reply-section{
+  padding: 30px 0 30px 0;
+  margin: auto;
+  float: right;
+  position: relative;
+  width: 95%;
+}
+.mencao{
+  font-weight: bold;
+  color: hsl(238, 40%, 52%);
+}
+.youCreated{
+  margin-right: 20px;
+  background-color: hsl(238, 40%, 52%);
+  color: white;
+  padding: 5px 10px 5px 10px;
+  font-size: 80%;
+}
+.deletarComment{
+  color: hsl(358, 79%, 66%);
+}
+.editarComment{
+  color: hsl(238, 40%, 52%);
+}
+.modComment{
+  width: 250px;
+  float: right;
+  position: absolute;
+  right: 0px;
+}
+.modComment > button{
+  margin-left: 20px;
+  background-color: transparent;
+  border: none;
+  display: inline-block;
+}
+.modComment button > * {
+  margin: 0 5px 0 5px;
+  cursor: pointer;
+}

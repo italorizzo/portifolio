@@ -2,27 +2,27 @@
     "desafio": [
         {
             "nome": "Calculadora de Gorjeta",
-            "link": "01 - tip-calculator-app-main",
+            "link": "p1_tip-calculator-app-main",
             "img": "https://res.cloudinary.com/dz209s6jk/image/upload/v1625753687/Challenges/so0b0hpmowz5ujjwbhkp.jpg"
         },
         {
             "nome": "Landing-page",
-            "link": "02 - easybank-landing-page-master",
+            "link": "p2_easybank-landing-page-master",
             "img": "https://res.cloudinary.com/dz209s6jk/image/upload/v1583427671/Challenges/yezt1f56cfp2njnakpbo.jpg"
         },
         {
             "nome": "Ecommerce-product",
-            "link": "03 - ecommerce-product-page-main",
+            "link": "p3_ecommerce-product-page-main",
             "img": "https://res.cloudinary.com/dz209s6jk/image/upload/v1633619531/Challenges/uehz7kwoo7gesfebbqi8.jpg"
         },
         {
             "nome": "Comentário Interativos",
-            "link": "04 - interactive-comments-section-main/interactive-comments-section-main/",
+            "link": "/Users/italorizzo/Documents/portifolio/src/p4_interactive-comments-section-main/comments/src",
             "img": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639765915/Challenges/v9wskl4mnbt5gbxm4o2r.jpg"
         },
         {
             "nome": "Notificação",
-            "link": "05 - notifications-page-main/notifications-page-main/",
+            "link": "p5_notifications-page-main",
             "img": "https://res.cloudinary.com/dz209s6jk/image/upload/v1663251781/Challenges/hkmsdxxteijprjdzskhg.jpg"
         }
     ]

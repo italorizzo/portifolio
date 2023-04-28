@@ -2,27 +2,27 @@
     "desafio": [
         {
             "nome": "Calculadora de Gorjeta",
-            "link": "/p1_tip-calculator-app-main/index.html",
+            "link": "p1_tip-calculator-app-main/index.html",
             "img": "https://res.cloudinary.com/dz209s6jk/image/upload/v1625753687/Challenges/so0b0hpmowz5ujjwbhkp.jpg"
         },
         {
             "nome": "Landing-page",
-            "link": "/p2_easybank-landing-page-master/index.html",
+            "link": "p2_easybank-landing-page-master/index.html",
             "img": "https://res.cloudinary.com/dz209s6jk/image/upload/v1583427671/Challenges/yezt1f56cfp2njnakpbo.jpg"
         },
         {
             "nome": "Ecommerce-product",
-            "link": "/p3_ecommerce-product-page-main/index.html",
+            "link": "p3_ecommerce-product-page-main/index.html",
             "img": "https://res.cloudinary.com/dz209s6jk/image/upload/v1633619531/Challenges/uehz7kwoo7gesfebbqi8.jpg"
         },
         {
             "nome": "Comentário Interativos",
-            "link": "/p4_interactive-comments-section-main/comments",
+            "link": "p4_interactive-comments-section-main/comments",
             "img": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639765915/Challenges/v9wskl4mnbt5gbxm4o2r.jpg"
         },
         {
             "nome": "Notificação",
-            "link": "/p5_notifications-page-main/index.html",
+            "link": "p5_notifications-page-main/index.html",
             "img": "https://res.cloudinary.com/dz209s6jk/image/upload/v1663251781/Challenges/hkmsdxxteijprjdzskhg.jpg"
         }
     ]

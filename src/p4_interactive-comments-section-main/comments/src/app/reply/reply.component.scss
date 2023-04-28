@@ -1,0 +1,54 @@
+.card-reply{
+  margin: auto;
+  position: relative;
+  padding: 10px;
+  width: 100%;
+}
+.card-reply-internal{
+  background-color: white;
+  padding: 20px;
+  display: table;
+  width: 95%;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.238);
+}
+.card-reply-internal > .user-image{
+  vertical-align: top;
+}
+.user-image img{
+  width: 80%;
+}
+.card-reply-internal > *{
+  display: inline-block;
+  margin: 0 20px 0 20px;
+  vertical-align: middle;
+}
+.user-menssagem{
+  height: 6em;
+  width: 31em;
+  position: relative;
+}
+.user-menssagem textarea{
+  height: 60%;
+  width: 90%;
+  border-radius: 15px;
+  border: hsl(238, 40%, 52%);
+  outline: 1;
+  resize: none;
+  padding: 20px;
+  color:hsl(211, 10%, 45%);
+}
+.card-reply-internal button{
+  padding: 20px 25px 20px 25px;
+  background-color: hsl(238, 40%, 52%);
+  text-transform: uppercase;
+  margin: 0;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.user-menssagem textarea:not(:focus) {
+  outline: none;
+  border: 2px solid hsl(211, 10%, 45%);
+}

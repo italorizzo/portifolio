@@ -29,6 +29,11 @@
             "nome": "Calculadora de Idade",
             "link": "./p6_age-calculator-app",
             "img": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/jmzygkuazktqtg2akkkx.jpg"
+        },
+        {
+            "nome": "Pedra, papel, tesoura",
+            "link": "https://italorizzo.github.io/rock-paper-scissors-game/",
+            "img": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/fnzuxyyl1wwyscqgaiyc.jpg"
         }
     ]
 }

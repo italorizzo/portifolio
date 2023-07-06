@@ -24,6 +24,11 @@
             "nome": "Notificação",
             "link": "p5_notifications-page-main",
             "img": "https://res.cloudinary.com/dz209s6jk/image/upload/v1663251781/Challenges/hkmsdxxteijprjdzskhg.jpg"
+        },
+        {
+            "nome": "Calculadora de Idade",
+            "link": "./p6_age-calculator-app",
+            "img": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/jmzygkuazktqtg2akkkx.jpg"
         }
     ]
 }

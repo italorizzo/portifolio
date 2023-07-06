@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <section class="home__entranceData">
+            <form action="" onsubmit="verifyAge()">
+                <div>
+                    <label>dia</label>
+                    <input id="diaInput" required type="text" placeholder="DD" maxlength="2" oninput="verify(this)" class="numericInput">
+                </div>
+                <div>
+                    <label>mes</label>
+                    <input id="mesInput" required type="text" placeholder="MM" maxlength="2" oninput="verify(this)" class="numericInput2">
+                </div>
+                <div>
+                    <label>ano</label>
+                    <input id="anoInput" required type="text" placeholder="YYYY" maxlength="4" oninput="verify(this)" class="numericInput3">
+                </div>
+                <button class="home__btn"></button>
+            </form>
+        </section>
+        <section class="home__result">
+            <p><span id="ano">--</span> anos</p>
+            <p><span id="mes">--</span> meses</p>
+            <p><span id="dia">--</span> dias</p>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -15,7 +15,7 @@ body{
 }
 main{
     position: relative;
-    width: 50%;
+    width: 70%;
     height: 75vh;
     border-radius: 2em 2em 16em 2em;
     background-color: hsl(0, 0%, 100%);
